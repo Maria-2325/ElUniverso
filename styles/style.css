@@ -1,0 +1,329 @@
+   body {
+     margin: 0;
+     padding: 0;
+     background-image: url('../img/espacio.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     height: 92vh;
+
+   }
+
+   header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 40px;
+   }
+
+   nav {
+     display: flex;
+     align-items: center;
+     gap: 100px;
+   }
+
+   /* Estilos de la barra de búsqueda */
+   .search-bar {
+     display: flex;
+     align-items: center;
+     border: 1px solid orange;
+     border-radius: 20px;
+     padding: 3px 20px;
+     background-color: transparent;
+   }
+
+   .search-bar input {
+     border: none;
+     background: transparent;
+     color: white;
+     outline: none;
+     font-size: 0.70em;
+     width: 110px;
+   }
+
+
+
+   .search-bar .icon {
+     margin-left: 2px;
+     width: 20px;
+     height: 20px;
+     fill: orange;
+
+   }
+
+   /* Estilos del logo */
+   .logo {
+     font-size: 1em;
+     font-weight: bold;
+     color: orange;
+   }
+
+   .logo span {
+     color: white;
+   }
+
+   .sin-fondo {
+     background: transparent;
+   }
+
+   .search-bar input::placeholder {
+     color: orange;
+   }
+
+   /* Estilos del menú de navegación */
+   nav a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+   }
+
+   .Portada {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 80px 60px;
+     min-height: calc(100vh - 100px);
+   }
+
+   /* Contenido del texto */
+   .text-content h1 {
+     font-size: 4em;
+     transform: translateY(-300%);
+     position: relative;
+     color: white;
+
+   }
+
+   /* Estilos del título */
+   h1 img {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     opacity: 0.1;
+   }
+
+   .text-content h1 span {
+     color: orange;
+   }
+
+   /* Estilos del párrafo */
+   .intro {
+     font-size: 1.2em;
+     width: 60%;
+     height: 20px;
+     transform: translateY(-1200%);
+     color: orange;
+     font-family: Arial, Helvetica, sans-serif;
+   }
+
+   /* Estilos del botón empezar recorrido */
+   .descripcion {
+     margin: 10px 0 10px;
+     width: 60%;
+     height: 25px;
+     font-size: 1em;
+     transform: translateY(-1000%);
+     color: white;
+     font-style: arial;
+   }
+
+   /* Imagen del planeta de inicio */
+   .planets img {
+     width: 90px;
+     margin: 0 10px;
+     animation: float 3s ease-in-out infinite;
+   }
+
+   section .planets {
+     display: flex;
+     justify-content: center;
+     /*align-items: center;*/
+     padding: 15px;
+     background-color: rgba(0, 0, 0, 0.5);
+     border-radius: 10px;
+
+
+   }
+
+   /* Sistema Solar */
+  section {
+    max-width: 1000px;      
+    margin: 0 auto;       
+    padding: 20px;         
+    
+}
+  section h2, section h3 {
+  text-align: center;
+}
+
+   #solar\ systems.planets,
+   .planets {
+     background-color: #fffbe6;
+     padding: 20px 30px;
+     margin-bottom: 30px;
+     border-radius: 8px;
+     border-left: 6px solid #f4b400;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   /* Título del Sistema Solar */
+   .planets h2 {
+     color: #b37700;
+     border-bottom: 3px solid #f4b400;
+  
+     font-size: 2rem;
+   }
+
+   /* Planetas */
+   .planets h3 {
+     color: #996600;
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 1.5rem;
+   }
+
+   /* Subtítulos de Planetas */
+   .planets h4 {
+     color: #805500;
+     font-size: 1.2rem;
+   }
+
+   /* Texto de los Planetas */
+
+   .planets p {
+  text-align: justify;
+  line-height: 1.5;
+  list-style-type: disc;
+  margin: 10px 0;
+}
+
+   
+
+   .planets ul {
+     list-style: none;
+     padding-left: 0;
+   }
+
+   /* Lista de Planetas */
+   .planets img {
+     display: block;
+     margin: 40px 0 50px;
+     width: 600px;
+     height: 400px;
+     border-radius: 6px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+     
+   }
+
+   /* Estrellas y Galaxias */
+   .stars {
+     background-color: #e6f0ff;
+     padding: 20px 30px;
+     margin-bottom: 30px;
+     border-radius: 8px;
+     border-left: 6px solid #4285f4;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .stars h2 {
+     color: #3366cc;
+     border-bottom: 3px solid #4285f4;
+     padding-bottom: 5px;
+     margin-bottom: 15px;
+     font-size: 2rem;
+   }
+
+   .stars p {
+     color: #334d99;
+     font-size: 1rem;
+     margin-bottom: 15px;
+   }
+
+   .stars h3 {
+     color: #254080;
+     margin-top: 25px;
+     margin-bottom: 10px;
+     font-size: 1.5rem;
+   }
+
+   .stars h4 {
+     color: #1a2a4a;
+     margin-top: 20px;
+     margin-bottom: 8px;
+     font-size: 1.2rem;
+   }
+
+   .stars ul {
+     list-style: none;
+     padding-left: 0;
+   }
+
+   .stars img {
+     display: block;
+     margin: 10px 0 20px;
+     max-width: 100%;
+     height: auto;
+     border-radius: 6px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+   }
+
+   /* Acerca de nosotros */
+   .about {
+     background-color: #e6ffe6;
+     padding: 20px 30px;
+     margin-bottom: 30px;
+     border-radius: 8px;
+     border-left: 6px solid #34a853;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+   }
+
+   .about h2 {
+     color: #2d7a2d;
+     border-bottom: 3px solid #34a853;
+     padding-bottom: 5px;
+     margin-bottom: 15px;
+     font-size: 2rem;
+   }
+
+   .about p {
+     font-size: 1rem;
+     color: #256625;
+     margin-bottom: 15px;
+   }
+
+   /* Iconos redes sociales */
+   .about a {
+     margin-right: 15px;
+     display: inline-block;
+     vertical-align: middle;
+     transition: transform 0.2s ease;
+   }
+
+   .about a:hover {
+     transform: scale(1.1);
+   }
+
+   .about img {
+     height: 50px;
+     width: 50px;
+     border-radius: 8px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+   }
+
+   br {
+     text-decoration: none;
+     color: black;
+     transform: translateY(-400%);
+   }
+
+   footer {
+     background-color: black;
+     color: white;
+     text-align: center;
+     padding: 20px;
+     bottom: 0;
+     width: 100%;
+   }
